@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>FSSC服务管控平台</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="styles/iconfont.css">
+    <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" href="bower_components/bootstrap.min.css">
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/font-awesome.min.css">
+    <!--[if IE 7]>
+   <link rel="stylesheet" href="styles/font-awesome-ie7.min.css">
+   <![endif]-->
+   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  <!--   /*ie低版本兼容问题*/ -->
+    <!--[if lte IE 8]>
+    <style>
+    .main{padding-left:40px;}
+    .sidebar {
+    position: relative;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #234e7b;
+    border-right: 1px solid #eee;
+    }
+    .user-info{
+      position:absolute;
+      top:10px;
+      right:10px;
+    }
+    </style>
+    <![endif]-->
+  </head>
+  <body>
+     <nav class="navbar bi-director navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bi-phone-navbar" aria-expanded="false" aria-controls="navbar" id="right-top-button">
+            <span class="icon-reorder"></span>
+          </button>
+          <span class="navbar-brand" id="navbar-brand" >FSSC服务管控平台</span>
+          <div class="user-info clearfix">
+             <div class="login-userimg">
+                     <img alt="image" class="" src="./images/2.png">
+                     <div class="login-infodetail">
+                          <span>张三丰</span><br>
+                          <span>项目经理</span>
+                     </div>                                      
+             </div>
+              <ul class="top-nav-user">
+                <li class="active"><a href="#"><i class="icon-sitemap"></i><br>机构</a></li>
+                <li><a href="#"><i class="icon-user"></i><br>用户</a></li>
+                <li><a href="#"><i class="icon-info-sign"></i><br>关于</a></li>
+                <li><a href="#"><i class="icon-lock"></i><br>密码</a></li>
+                <li><a href="#"><i class="icon-off"></i><br>注销</a></li>
+                <li><a href="#"><i class="icon-question-sign"></i><br>帮助</a></li>
+             </ul>            
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid my-middle-body">
+      <div class="row">
+        <div class="col-sm-3 col-md-3 col-lg-2 bi-director-left sidebar">
+          <div class="nav nav-sidebar navbar-collapse collapse" aria-expanded="false" id="bi-phone-navbar">
+            <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class=" icon-desktop left-first-leve-icon"></i>
+                  <a>应用中心</a>
+                  <i class="icon-angle-left right-first-leve-icon"></i>
+                </span>
+                <ul class="second-leve-ul">
+                  <li><a href="/1111.html" data-id="11">我的工作</a></li>
+                  <li><a href="/2222.html" data-id="22">岗位工作</a></li>
+                  <li><a href="/3333.html" data-id="33">优先级</a></li>
+                  <li><a href="/4444.html" data-id="44">计划与汇报</a></li>
+                </ul>
+             </div>
+
+              <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class="iconfont icon-yunweishenji left-first-leve-icon"></i>
+                  <a>运维管理</a>
+                  <i class="icon-angle-left right-first-leve-icon"></i>
+                </span>
+                <ul class="second-leve-ul">
+                    <li>
+                      <a>系统运维汇报</a>
+                    </li>
+                    <li>
+                      <a>IT运维汇报</a>
+                    </li>
+                 </ul>
+              </div>
+              <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class=" iconfont icon-xiangmuguanli left-first-leve-icon"></i>
+                  <a>项目管理</a>
+                  <i class="icon-angle-left right-first-leve-icon"></i>
+                </span>
+              </div>
+              <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class=" iconfont icon-peixunxiangmu left-first-leve-icon"></i>
+                  <a>培训管理</a>
+                  <i class="icon-angle-left right-first-leve-icon"></i>
+                </span>
+              </div>
+              <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class=" iconfont icon-gongzuo1 left-first-leve-icon"></i>
+                  <a>其它工作汇报</a>
+                  <i class="icon-angle-left right-first-leve-icon"></i>
+                </span>
+              </div>
+              <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class=" iconfont icon-tubiao11 left-first-leve-icon"></i>
+                  <a>数据分析中心</a>
+                  <i class="icon-angle-left right-first-leve-icon"></i>
+                </span>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-9 col-md-9 col-lg-10 main">
+          <h4>我的桌面</h4>
+          <i class="icon-caret-left pull-left-target" id="left-button-flex"></i>
+          <div class="row" >
+            <div class="left-desktop col-md-9 col-sm-9">
+            <!-- 工作优先级 -->
+              <div class="mydestop">
+                 
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade in active" id="work1">
+                        <div class="panel">
+                            <div class="panel-heading text-center">
+                                <h3 class="panel-title">
+                                    工作优先级
+                                </h3>
+                            </div>
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr class="verydo"><td>【非常紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr class="verydo"><td>【非常紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr class="verydo"><td>【非常紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr><td>【紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr><td>【紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr><td>【紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="work2">
+                      <div class="panel">
+                            <div class="panel-heading text-center">
+                                <h3 class="panel-title">
+                                    本周工作重点工作优先级
+                                </h3>
+                            </div>
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr class="verydo"><td>【非常紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr class="verydo"><td>【非常紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr class="verydo"><td>【非常紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr><td>【紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr><td>【紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr><td>【紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="work3">
+                      <div class="panel">
+                            <div class="panel-heading text-center">
+                                <h3 class="panel-title">
+                                    本月工作重点工作优先级
+                                </h3>
+                            </div>
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr class="verydo"><td>【非常紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr class="verydo"><td>【非常紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr class="verydo"><td>【非常紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr><td>【紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr><td>【紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr><td>【紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                <ul id="myTab" class="nav nav-tabs nav-pills">
+                  <li class="active">
+                    <a href="#work1" data-toggle="tab">
+                       本日工作重点
+                    </a>
+                  </li>
+                  <li><a href="#work2" data-toggle="tab">本周工作重点</a></li>
+                  <li><a href="#work3" data-toggle="tab">本月工作重点</a></li>
+                </ul>
+              </div>
+
+            <!-- 我的常用 -->
+               <div class="mydestop">
+                 
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade in active" id="common1">
+                        <div class="panel">
+                            <div class="panel-heading text-center">
+                                <h3 class="panel-title">
+                                    我的常用
+                                </h3>
+                                <h6 class="h-crud"><a href="">添加</a></h6>
+                                <h6 class="h-crud">|</h6>
+                                <h6 class="h-crud"><a href="">删除</a></h6>
+                            </div>
+                            <div class="panel-body">
+                              <ul class="common-icon clearfix">
+                                    <li class="active"><a class="common-sp" href="#"><i class="iconfont icon-iconshenpiliucheng"></i><br><span>审批流程</span></a></li>
+                                    <li><a class="common-wq" href="#"><i class="iconfont icon-waiqin"></i><br><span>外勤</span></a></li>
+                                    <li><a class="common-tx" href="#"><i class="iconfont icon-txl"></i><br><span>通讯录</span></a></li>
+                                    <li><a class="common-rw" href="#"><i class="iconfont icon-wodexiezuo_intouch"></i><br><span>任务协作</span></a></li>
+                              </ul>
+                              <div class="other-directory text-center">
+                                <h3 class="panel-title ">
+                                    其他目录说明
+                                </h3>
+                                  <ul class="common-icon clearfix">
+                                      <li class="active"><a class="common-oa" href="#">OA</a></li>
+                                      <li><a class="common-eas" href="#">EAS</a></li>
+                                      <li><a class="common-ehr" href="#">EHR</a></li>
+                                      <li><a class="common-nc" href="#">NC</a></li>
+                                  </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="common2">
+                      <div class="panel">
+                            <div class="panel-heading text-center">
+                                <h3 class="panel-title">
+                                    本周工作重点工作优先级
+                                </h3>
+                            </div>
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr class="verydo"><td>【非常紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr class="verydo"><td>【非常紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr class="verydo"><td>【非常紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr><td>【紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr><td>【紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr><td>【紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="common3">
+                      <div class="panel">
+                            <div class="panel-heading text-center">
+                                <h3 class="panel-title">
+                                   待办事项
+                                </h3>
+                            </div>
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr class="verydo"><td>【非常紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr class="verydo"><td>【非常紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr class="verydo"><td>【非常紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr><td>【紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr><td>【紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                    <tr><td>【紧急】</td><td>业务处理</td><td>2016-12-21</td></tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                <ul id="myTab" class="nav nav-tabs nav-pills">
+                  <li class="active">
+                    <a href="#common1" data-toggle="tab">
+                       运营平台
+                    </a>
+                  </li>
+                  <li><a href="#common2" data-toggle="tab">管理平台</a></li>
+                  <li><a href="#common3" data-toggle="tab">公司门户</a></li>
+                </ul>
+              </div>
+
+            </div>
+            <div class="right-desktop col-md-3 col-sm-3">
+              <div class="dbsx">
+                <div class="panel">
+                  <div class="panel-heading text-center">
+                      <h3 class="panel-title">
+                          代办事项
+                      </h3>
+                  </div>
+                  <div class="panel-body">
+                      编辑、新增代办事项 编辑、新增代办事项                                                      
+                  </div>
+              </div>
+              </div>
+              <div class="sjtj">
+                <div class="panel">
+                  <div class="panel-heading text-center">
+                      <h3 class="panel-title">
+                          个人工作数据统计
+                      </h3>
+                  </div>
+                  <div class="panel-body">
+                      <img class="img-responsive" src="./images/3.png" alt="">                                                      
+                  </div>
+              </div>
+              </div>
+              <div class="bwl-txl">
+                <div class="panel">
+                  <div class="panel-heading text-center">
+                      <h3 class="panel-title">
+                          备忘录|通讯录
+                      </h3>
+                  </div>
+                  <div class="panel-body">
+                      备忘录：文本编辑框，增删修存
+                      通讯录：文本编辑框，增删修存
+                      显示最近更新的通讯录                                                      
+                  </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- bower:js -->
+    <script src="bower_components/jquery.min.js"></script>
+    <script src="bower_components/bootstrap.min.js"></script>
+    <!-- 根据ie浏览器版本加入jq版本 -->
+    <!--[if lte IE 8]>
+     <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <![endif]-->
+    <!-- endbower -->
+    
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
