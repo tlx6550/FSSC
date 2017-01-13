@@ -382,6 +382,68 @@ html, body {
 .second-leve-ul {
   display: none; }
 
+/*增删改查栏操作按钮区  */
+.crud-nav {
+  background-color: #f3b454;
+  height: 55px;
+  line-height: 55px; }
+  .crud-nav li {
+    float: left;
+    margin-right: 45px; }
+    .crud-nav li a {
+      color: #fff;
+      font-size: 18px; }
+    .crud-nav li i {
+      margin-right: 5px;
+      font-size: 22px; }
+
+.my-query {
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 20px; }
+  .my-query div.input-append {
+    display: inline;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 30px; }
+    .my-query div.input-append i {
+      font-size: 16px; }
+  .my-query input {
+    text-indent: 10px; }
+  .my-query .add-on {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #fff;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #ff721f; }
+
+.my-table-detail {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 10px; }
+  .my-table-detail table thead tr th {
+    background-color: #0e3e6e;
+    color: #fff;
+    text-align: center; }
+  .my-table-detail table tbody tr td {
+    text-align: center;
+    height: 50px;
+    line-height: 50px; }
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover {
+  background-color: #fb6863;
+  border-color: #fb6863; }
+
 @media (max-width: 768px) {
   .main {
     position: relative;

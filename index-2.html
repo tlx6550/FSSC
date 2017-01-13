@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>FSSC服务管控平台</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="styles/iconfont.css">
+    <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" href="bower_components/bootstrap.min.css">
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/font-awesome.min.css">
+    <!--[if IE 7]>
+   <link rel="stylesheet" href="styles/font-awesome-ie7.min.css">
+   <![endif]-->
+   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  <!--   /*ie低版本兼容问题*/ -->
+    <!--[if lte IE 8]>
+    <style>
+    .main{padding-left:40px;}
+    .sidebar {
+    position: relative;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #234e7b;
+    border-right: 1px solid #eee;
+    }
+    .user-info{
+      position:absolute;
+      top:10px;
+      right:10px;
+    }
+    </style>
+    <![endif]-->
+  </head>
+  <body>
+      <nav class="navbar bi-director navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bi-phone-navbar" aria-expanded="false" aria-controls="navbar" id="right-top-button">
+            <span class="icon-reorder"></span>
+          </button>
+          <span class="navbar-brand" id="navbar-brand" >FSSC服务管控平台</span>
+          <div class="user-info clearfix">
+             <div class="login-userimg">
+                     <img alt="image" class="" src="./images/2.png">
+                     <div class="login-infodetail">
+                          <span>张三丰</span><br>
+                          <span>项目经理</span>
+                     </div>                                      
+             </div>
+              <ul class="top-nav-user">
+                <li class="active"><a href="#"><i class="icon-sitemap"></i><br>机构</a></li>
+                <li><a href="#"><i class="icon-user"></i><br>用户</a></li>
+                <li><a href="#"><i class="icon-info-sign"></i><br>关于</a></li>
+                <li><a href="#"><i class="icon-lock"></i><br>密码</a></li>
+                <li><a href="#"><i class="icon-off"></i><br>注销</a></li>
+                <li><a href="#"><i class="icon-question-sign"></i><br>帮助</a></li>
+             </ul>            
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid my-middle-body">
+      <div class="row">
+        <div class="col-sm-3 col-md-3 col-lg-2 bi-director-left sidebar">
+          <div class="nav nav-sidebar navbar-collapse collapse" aria-expanded="false" id="bi-phone-navbar">
+            <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class=" icon-desktop left-first-leve-icon"></i>
+                  <a>应用中心</a>
+                  <i class="icon-angle-left right-first-leve-icon"></i>
+                </span>
+                <ul class="second-leve-ul">
+                  <li><a href="/1111.html" data-id="11">我的工作</a></li>
+                  <li><a href="/2222.html" data-id="22">岗位工作</a></li>
+                  <li><a href="/3333.html" data-id="33">优先级</a></li>
+                  <li><a href="/4444.html" data-id="44">计划与汇报</a></li>
+                </ul>
+             </div>
+
+              <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class="iconfont icon-yunweishenji left-first-leve-icon"></i>
+                  <a>运维管理</a>
+                  <i class="icon-angle-left right-first-leve-icon"></i>
+                </span>
+                <ul class="second-leve-ul">
+                    <li>
+                      <a>系统运维汇报</a>
+                    </li>
+                    <li>
+                      <a>IT运维汇报</a>
+                    </li>
+                 </ul>
+              </div>
+              <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class=" iconfont icon-xiangmuguanli left-first-leve-icon"></i>
+                  <a>项目管理</a>
+                  <i class="icon-angle-left right-first-leve-icon"></i>
+                </span>
+              </div>
+              <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class=" iconfont icon-peixunxiangmu left-first-leve-icon"></i>
+                  <a>培训管理</a>
+                  <i class="icon-angle-left right-first-leve-icon"></i>
+                </span>
+              </div>
+              <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class=" iconfont icon-gongzuo1 left-first-leve-icon"></i>
+                  <a>其它工作汇报</a>
+                  <i class="icon-angle-left right-first-leve-icon"></i>
+                </span>
+              </div>
+              <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class=" iconfont icon-tubiao11 left-first-leve-icon"></i>
+                  <a>数据分析中心</a>
+                  <i class="icon-angle-left right-first-leve-icon"></i>
+                </span>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-9 col-md-9 col-lg-10 main">
+          <h4>我的桌面 | 岗位职责</h4>
+          <i class="icon-caret-left pull-left-target" id="left-button-flex"></i>
+          <div class="work-main" >
+            <div class="crud-nav">
+              <ul class="do-nav-crud clearfix">
+                <li class="active"><a href="#"><i class=" icon-plus-sign"></i>增加</a></li>
+                <li><a href="#"><i class="iconfont icon-xiugai"></i>修改</a></li>
+                <li><a href="#"><i class="icon-remove-sign"></i>删除</a></li>
+                <li><a href="#"><i class="iconfont icon-icon11"></i>审批</a></li>
+                <li><a href="#"><i class=" icon-search"></i>查看</a></li>
+             </ul> 
+            </div> 
+            <div class="clearfix"></div>
+            <div class="my-query clearfix">
+                <div class="input-append">
+                  <input placeholder="岗位名称" type="text">
+                </div>
+                <div class="input-append">
+                  <input placeholder="所属组织" type="text">
+                </div>
+                 <div class="input-append">
+                  <input placeholder="工作范围" type="text">
+                </div>
+
+                <div class="input-append">
+                  <input placeholder="创建人" type="text">
+                  <button class="btn add-on"><i class="icon-search"></i></button>
+                </div>
+          </div>
+          <div class="my-table-detail">
+            <table class="table table-bordered table-hover table-striped">
+              <thead>
+                <tr>
+                  <th>序号</th>
+                  <th>选择</th>
+                  <th>岗位编码</th>
+                  <th>岗位名称</th>
+                  <th>所属组织</th>
+                  <th>工作范围</th>
+                  <th>工作事项</th>
+                  <th>创建人</th>
+                  <th>备注</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>李福宇</td>
+                  <td>岗位编码</td>
+                  <td>岗位名称</td>
+                  <td>所属组织</td>
+                  <td>工作范围</td>
+                  <td><a class="table-edit-a" href="">查看 </a> <a class="table-edit-a" href="">删除</a> </td>
+                  <td>创建人</td>
+                  <td>备注</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>李福宇</td>
+                  <td>岗位编码</td>
+                  <td>岗位名称</td>
+                  <td>所属组织</td>
+                  <td>工作范围</td>
+                  <td><a class="table-edit-a" href="">查看 </a> <a class="table-edit-a" href="">删除</a> </td>
+                  <td>创建人</td>
+                  <td>备注</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>李福宇</td>
+                  <td>岗位编码</td>
+                  <td>岗位名称</td>
+                  <td>所属组织</td>
+                  <td>工作范围</td>
+                  <td><a class="table-edit-a" href="">查看 </a> <a class="table-edit-a" href="">删除</a> </td>
+                  <td>创建人</td>
+                  <td>备注</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>李福宇</td>
+                  <td>岗位编码</td>
+                  <td>岗位名称</td>
+                  <td>所属组织</td>
+                  <td>工作范围</td>
+                  <td><a class="table-edit-a" href="">查看 </a> <a class="table-edit-a" href="">删除</a> </td>
+                  <td>创建人</td>
+                  <td>备注</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>李福宇</td>
+                  <td>岗位编码</td>
+                  <td>岗位名称</td>
+                  <td>所属组织</td>
+                  <td>工作范围</td>
+                  <td><a class="table-edit-a" href="">查看 </a> <a class="table-edit-a" href="">删除</a> </td>
+                  <td>创建人</td>
+                  <td>备注</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>李福宇</td>
+                  <td>岗位编码</td>
+                  <td>岗位名称</td>
+                  <td>所属组织</td>
+                  <td>工作范围</td>
+                  <td><a class="table-edit-a" href="">查看 </a> <a class="table-edit-a" href="">删除</a> </td>
+                  <td>创建人</td>
+                  <td>备注</td>
+                </tr>
+              </tbody>
+            </table>
+            <ul class="pagination">
+              <li><a href="#">«</a></li>
+              <li class="active"><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li><a href="#">»</a></li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+   <!-- bower:js -->
+    <script src="bower_components/jquery.min.js"></script>
+    <script src="bower_components/bootstrap.min.js"></script>
+    <!-- 根据ie浏览器版本加入jq版本 -->
+    <!--[if lte IE 8]>
+     <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <![endif]-->
+    <!-- endbower -->
+    
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
