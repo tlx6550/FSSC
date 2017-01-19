@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>FSSC服务管控平台</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="styles/iconfont.css">
+    <!-- build:css styles/vendor.css -->
+   <link rel="stylesheet" href="bower_components/bootstrap.min.css">
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/font-awesome.min.css">
+    <!--[if IE 7]>
+   <link rel="stylesheet" href="styles/font-awesome-ie7.min.css">
+   <![endif]-->
+   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  <!--   /*ie低版本兼容问题*/ -->
+    <!--[if lte IE 8]>
+    <style>
+    .main{padding-left:40px;}
+    .sidebar {
+    position: relative;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #234e7b;
+    border-right: 1px solid #eee;
+    }
+    .user-info{
+      position:absolute;
+      top:10px;
+      right:10px;
+    }
+    .navbar-header{
+      height:70px;
+    }
+    </style>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar bi-director navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <span class="navbar-brand" id="navbar-brand" >FSSC服务管控平台</span>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="container">
+  <div class="leftpic">
+       <div class="kj_banner">
+         <img src="./images/kjbanner01.png" alt="以人为本,创造健康生活">
+      </div>
+  </div>
+
+   <div class="login-container">
+     <form class="form-signin" role="form">
+        <h3 class="form-signin-heading">用户登录</h3>
+        <span class="form-signin-heading-2">UserLogin</span>
+        <div class="input-group">
+          <i class=" icon-user"></i>
+          <input type="text" class="form-control" placeholder="用户名" required>
+        </div>
+        <div class="input-group">
+          <i class=" icon-lock"></i>
+          <input type="password" class="form-control" placeholder="密码" required>
+        </div>
+        <button class="btn btn-success" type="submit">登&nbsp;录</button>
+        <button class="btn btn-defaut btn-register" type="submit">注&nbsp;册</button>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me">记住密码
+            <a href="#">忘记密码</a>
+          </label>
+        </div>
+      </form>
+      <i class="yinying"></i>
+   </div>
+</div>
+    
+    <!-- build-->
+    <!-- bower:js -->
+    <script src="bower_components/jquery.min.js"></script>
+    <script src="bower_components/bootstrap.min.js"></script>
+    <!-- 根据ie浏览器版本加入jq版本 -->
+    <!--[if lte IE 8]>
+      <script src="/bower_components/jquery/dist/jquery-1.11.3min.js"></script>
+    <![endif]-->
+    <!-- endbower -->
+    
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>

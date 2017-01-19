@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>FSSC服务管控平台</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="styles/iconfont.css">
+    <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" href="bower_components/bootstrap.min.css">
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/font-awesome.min.css">
+    <!--[if IE 7]>
+   <link rel="stylesheet" href="styles/font-awesome-ie7.min.css">
+   <![endif]-->
+   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  <!--   /*ie低版本兼容问题*/ -->
+    <!--[if lte IE 8]>
+    <style>
+    .main{padding-left:40px;}
+    .sidebar {
+    position: relative;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #234e7b;
+    border-right: 1px solid #eee;
+    }
+    .user-info{
+      position:absolute;
+      top:10px;
+      right:10px;
+    }
+    .navbar-header{
+      height:70px;
+    }
+    </style>
+    <![endif]-->
+  </head>
+  <body>
+      <nav class="navbar bi-director navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bi-phone-navbar" aria-expanded="false" aria-controls="navbar" id="right-top-button">
+            <span class="icon-reorder"></span>
+          </button>
+          <span class="navbar-brand" id="navbar-brand" >FSSC服务管控平台</span>
+          <div class="user-info clearfix">
+             <div class="login-userimg">
+                     <img alt="image" class="" src="./images/2.png">
+                     <div class="login-infodetail">
+                          <span>张三丰</span><br>
+                          <span>项目经理</span>
+                          <div class="my-diy-color">
+                             <i class="icon-sign-blank "></i>
+                             <i class="icon-sign-blank icon-diy02"></i>
+                          </div>
+                     </div>                                 
+             </div>
+              <ul class="top-nav-user">
+                <li class="active"><a href="#"><i class="icon-sitemap"></i><br>机构</a></li>
+                <li><a href="#"><i class="icon-user"></i><br>用户</a></li>
+                <li><a href="#"><i class="icon-info-sign"></i><br>关于</a></li>
+                <li><a href="#"><i class="icon-lock"></i><br>密码</a></li>
+                <li><a href="#"><i class="icon-off"></i><br>注销</a></li>
+                <li><a href="#"><i class="icon-question-sign"></i><br>帮助</a></li>
+             </ul>            
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid my-middle-body">
+      <div class="row" id="left-nav-bug">
+        <div class="col-sm-3 col-md-3 col-lg-2 bi-director-left sidebar">
+          <div class="nav nav-sidebar navbar-collapse collapse" aria-expanded="false" id="bi-phone-navbar">
+            <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class=" icon-desktop left-first-leve-icon"></i>
+                  <a>应用中心</a>
+                  <i class="icon-angle-left right-first-leve-icon"></i>
+                </span>
+                <ul class="second-leve-ul">
+                  <li><a href="/1111.html" data-id="11">我的工作</a></li>
+                  <li><a href="/2222.html" data-id="22">岗位工作</a></li>
+                  <li><a href="/3333.html" data-id="33">优先级</a></li>
+                  <li><a href="/4444.html" data-id="44">计划与汇报</a></li>
+                </ul>
+             </div>
+
+              <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class="iconfont icon-yunweishenji left-first-leve-icon"></i>
+                  <a>个性化定制</a>
+                  <i class="icon-angle-left right-first-leve-icon"></i>
+                </span>
+                <ul class="second-leve-ul">
+                    <li>
+                      <a>系统运维汇报</a>
+                    </li>
+                    <li>
+                      <a>IT运维汇报</a>
+                    </li>
+                 </ul>
+              </div>
+              <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class=" iconfont icon-xiangmuguanli left-first-leve-icon"></i>
+                  <a>项目管理</a>
+                  <i class="icon-angle-left right-first-leve-icon"></i>
+                </span>
+              </div>
+              <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class=" iconfont icon-peixunxiangmu left-first-leve-icon"></i>
+                  <a>培训管理</a>
+                  <i class="icon-angle-left right-first-leve-icon"></i>
+                </span>
+              </div>
+              <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class=" iconfont icon-gongzuo1 left-first-leve-icon"></i>
+                  <a>其它工作汇报</a>
+                  <i class="icon-angle-left right-first-leve-icon"></i>
+                </span>
+              </div>
+              <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class=" iconfont icon-tubiao11 left-first-leve-icon"></i>
+                  <a>数据分析中心</a>
+                  <i class="icon-angle-left right-first-leve-icon"></i>
+                </span>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-9 col-md-9 col-lg-10 main">
+          <h4>我的桌面</h4>
+          <!-- 消息面板 -->
+          <i class="icon-bell-alt" id="message-alert-icon"></i>
+          <div class="message-alert-container">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h4 class="message-title">
+                      消息提醒
+                  </h4>
+              </div>
+              <div class="panel-body">
+                  <div class="message-content">
+                    <div class="list-head">
+                      <span class="work-tip">工作提醒</span>
+                      <a class="bzyb">标注以办</a>
+                      <a href="">新增</a>
+                      <a href="">删除</a>  
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                           <i class="icon-circle list-icon active"></i>
+                           <a href="" class="list-title">2017.1.10  9点准备会议室，参观人数8人</a>
+                        </li>
+                        <li class="list-group-item">
+                           <i class="icon-circle list-icon active"></i>
+                           <a href="" class="list-title">2017.1.10  9点准备会议室，参观人数8人</a>
+                        </li>
+                        <li class="list-group-item">
+                           <i class="icon-circle list-icon active"></i>
+                           <a href="" class="list-title">2017.1.10  9点准备会议室，参观人数8人</a>
+                        </li>
+                    </ul>
+                    <div class="list-head">
+                      <span class="work-tip">生活提醒</span>
+                      <a class="bzyb">标注以办</a>
+                      <a href="">新增</a>
+                      <a href="">删除</a>  
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                           <i class="icon-circle list-icon active"></i>
+                           <a href="" class="list-title">2017.1.10  9点准备会议室，参观人数8人</a>
+                        </li>
+                        <li class="list-group-item">
+                           <i class="icon-circle list-icon"></i>
+                           <a href="" class="list-title">2017.1.10  9点准备会议室，参观人数8人</a>
+                        </li>
+                        <li class="list-group-item">
+                           <i class="icon-circle list-icon"></i>
+                           <a href="" class="list-title">2017.1.10  9点准备会议室，参观人数8人</a>
+                        </li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <i class="icon-caret-left pull-left-target" id="left-button-flex"></i>
+          <div class="row" >
+            <!-- 我的常用 -->
+               <div class="mydestop">
+                 
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade in active" id="common1">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    我的常用
+                                </h3>
+                            </div>
+                            <div class="panel-body">
+                              <ul class="common-icon clearfix">
+                                <li><a class="common" href="#"><i class="iconfont icon-xiaoxi"></i>消息提醒</a></li>
+                                <li><a class="common" href="#"><i class="iconfont icon-txl"></i>通讯录</a></li>
+                                <li><a class="common" href="#"><i class="iconfont icon-wannianli"></i>万年历</a></li>
+                                <li><a class="common" href="#"><i class="icon-sitemap"></i>组织架构</a></li>
+                                <li><a class="common" href="#"><i class="iconfont icon-beiwanglu"></i>备忘录</a></li>
+                                <li><a class="common" href="#"><i class="iconfont icon-txl"></i>万年历</a></li>
+                                <li><a class="common" href="#"><i class="icon-sitemap"></i>组织架构</a></li>
+                                <li><a class="common" href="#"><i class="icon-sitemap"></i>备忘录</a></li>
+                                <li><a class="common" href="#"><i class="iconfont icon-txl"></i>万年历</a></li>
+                                <li><a class="common" href="#"><i class="icon-sitemap"></i>组织架构</a></li>
+                                <li><a class="common" href="#"><i class="icon-sitemap"></i>备忘录</a></li>
+                              </ul>
+                              <div class="other-directory">
+                                <h3 class="panel-title ">
+                                   我的工作
+                                </h3>
+                                  <ul class="common-icon clearfix">
+                                    <li><a class="common-zm" href="#"><i class="iconfont icon-wodezhuomian"></i><br><span>我的桌面</span></a></li>
+                                    <li><a class="common-wq" href="#"><i class="iconfont icon-shixiang"></i><br><span>工作事项</span></a></li>
+                                    <li><a class="common-tx" href="#"><i class="iconfont icon-xiangmuguanli"></i><br><span>项目管理</span></a></li>
+                                    <li><a class="common-rw" href="#"><i class="iconfont icon-peixunxiangmu"></i><br><span>培训管理</span></a></li>
+                                    <li><a class="common-sp" href="#"><i class="iconfont icon-yunweishenji"></i><br><span>运维管理</span></a></li>
+                                    <li><a class="common-xz" href="#"><i class="iconfont icon-hr"></i><br><span>行政人力</span></a></li>
+                                    <li><a class="common-xx" href="#"><i class="iconfont icon-hudongjiaoliu"></i><br><span>信息交流</span></a></li>
+                                    <li><a class="common-cw" href="#"><i class="iconfont icon-caiwuguanli"></i><br><span>财务管理</span></a></li>
+                                    <li><a class="common-gr" href="#"><i class="iconfont icon-grxx"></i><br><span>个人信息</span></a></li>
+                                    <li><a class="common-gg" href="#"><i class="iconfont icon-suoyoukehu"></i><br><span>公共事务</span></a></li>
+                                    <li><a class="common-zs" href="#"><i class="iconfont icon-zhishi"></i><br><span>知识管理</span></a></li>
+                                  </ul>
+                                </div>
+                              <div class="other-directory my-life">
+                                <h3 class="panel-title ">
+                                   我的工作
+                                </h3>
+                                  <ul class="common-icon clearfix">
+                                    <li><a class="common-jk" href="#"><i class="iconfont icon-jiankang"></i><br><span>健康管理</span></a></li>
+                                    <li><a class="common-rw" href="#"><i class="iconfont icon-wodericheng"></i><br><span>我的日程</span></a></li>
+                                    <li><a class="common-xz" href="#"><i class="iconfont icon-licai"></i><br><span>理财频道</span></a></li>
+                                    <li><a class="common-jy" href="#"><i class="iconfont icon-zinvjiaoyu"></i><br><span>子女教育</span></a></li>
+                                    
+                                  </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- build-->
+    <!-- bower:js -->
+    <script src="bower_components/jquery.min.js"></script>
+    <script src="bower_components/bootstrap.min.js"></script>
+    <!-- 根据ie浏览器版本加入jq版本 -->
+    <!--[if lte IE 8]>
+      <script src="/bower_components/jquery/dist/jquery-1.11.3min.js"></script>
+    <![endif]-->
+    <!-- endbower -->
+    
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
