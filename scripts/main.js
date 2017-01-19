@@ -11,7 +11,7 @@
     // 点击二级目录
     $('.second-leve-ul a').click(function (e) {
         e.stopPropagation();
-        e.preventDefault();
+        //e.preventDefault();
         var second_leve_ul = $(this).parent().next('ul');
         // 如果没有三级菜单
         if (second_leve_ul.length == 0) {
