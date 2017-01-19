@@ -930,6 +930,7 @@ html, body {
     display: block;
     overflow-x: hidden;
     overflow-y: auto;
+    top:60px;
     background-color: #234e7b;
     border-right: 1px solid #eee;
   }
