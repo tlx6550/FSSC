@@ -12,7 +12,7 @@
     <!-- Place favicon.ico in the root directory -->
     <link rel="stylesheet" href="styles/iconfont.css">
     <!-- build:css styles/vendor.css -->
-    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap.min.css">
     <!-- bower:css -->
     <!-- endbower -->
     <!-- endbuild -->
@@ -85,7 +85,7 @@
     </nav>
 
     <div class="container-fluid my-middle-body">
-      <div class="row">
+      <div class="row" id="left-nav-bug">
         <div class="col-sm-3 col-md-3 col-lg-2 bi-director-left sidebar">
           <div class="nav nav-sidebar navbar-collapse collapse" aria-expanded="false" id="bi-phone-navbar">
             <div class="first-leve-div">
@@ -276,8 +276,8 @@
     </div>
     <!-- build-->
     <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="/bower_components/flatpickr/dist/flatpickr.min.js"></script>
+    <script src="bower_components/jquery.min.js"></script>
+    <script src="bower_components/bootstrap.min.js"></script>
     <!-- 根据ie浏览器版本加入jq版本 -->
     <!--[if lte IE 8]>
       <script src="/bower_components/jquery/dist/jquery-1.11.3min.js"></script>
@@ -285,7 +285,6 @@
     <!-- endbower -->
     
     <!-- build:js scripts/main.js -->
-    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
   </body>
